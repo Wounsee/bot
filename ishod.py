@@ -43,9 +43,7 @@ from aiogram.filters import BaseFilter, Command
 # -----------------------------
 # CONFIG (tokens provided by you)
 # -----------------------------
-BOT_TOKEN = "8246983928:AAH9BRXupUHBQf0c0oSn45Owlr5GV3VWW8E"
-ADMIN_ID = 1627227943
-CRYPTO_API_TOKEN = "459309:AAseBlc4ZXsFTmrhsHkhuPavf1vvm4EfcUX"  # Crypto Pay app token (from Crypto Bot)
+  # Crypto Pay app token (from Crypto Bot)
 DB_PATH = "shop.db"
 START_ORDER_NUMBER = 1000  # first order will get number 1001
 TICKET_BASE_NUMBER = 100
@@ -1673,3 +1671,4 @@ if __name__ == "__main__":
         asyncio.run(main())
     except KeyboardInterrupt:
         logging.info("Stopped by KeyboardInterrupt")
+
